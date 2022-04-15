@@ -1,0 +1,20 @@
+//---------Scope---------------
+// $global-variable:global value;
+// .content{
+//     $local-variable:local value;
+//     global: $global-variable;
+//     local : $local-variable;
+// }
+// .sidebar{
+//     global:$global-variable;
+// }
+//--------------END-------------
+
+$base-color: red;
+#first{
+    background: $base-color;
+}
+$base-color: blue; // możemy zmieniać wartości zmiennych
+#first01{
+    background: $base-color;
+}
