@@ -1,0 +1,23 @@
+//---------Scope---------------
+// $global-variable:global value;
+// .content{
+//     $local-variable:local value;
+//     global: $global-variable;
+//     local : $local-variable;
+// }
+// .sidebar{
+//     global:$global-variable;
+// }
+//--------------END-------------
+// !deafult to zmienna rezerwowa jeżeli nie dostanie żadna wartość do niej przypisana to weźmie tą
+$base-color: red !default;
+#first{
+    background: $base-color;
+}
+#first01{
+    $base-color: blue;
+    background: $base-color;
+}
+#first02{
+    background: $base-color;
+}
