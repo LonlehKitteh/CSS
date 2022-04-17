@@ -1,0 +1,30 @@
+@mixin dupa {
+    #jeden {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: larger;
+        font-family: "Courier New", Courier, monospace;
+        color: red;
+    }
+    #main{
+        span{
+            background-color: red;
+            #jeden{
+                text-align: center;
+                text-transform: uppercase;
+                font-size: larger;
+                font-family: "Courier New", Courier, monospace;
+                color: red;
+            }
+        }
+    }
+}
+#article{
+    @include dupa;
+}
+#main{
+    @include dupa;
+    #jeden{
+        color: blue;
+    }
+}
