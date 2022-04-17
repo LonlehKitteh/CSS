@@ -1,0 +1,10 @@
+@import 'mixins';
+#article{
+    @include dupa;
+}
+#main{
+    @include dupa;
+    #jeden{
+        color: blue;
+    }
+}
