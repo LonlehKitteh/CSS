@@ -1,0 +1,13 @@
+@import 'mixins';
+#article{
+    @include dupa;
+}
+#main{
+    @include dupa;
+    #jeden{
+        color: red;
+        &:hover{
+            color: blue;
+        }
+    }
+}

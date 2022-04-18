@@ -1,0 +1,48 @@
+#article #jeden {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: larger;
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+}
+
+#article #main span {
+  background-color: red;
+}
+
+#article #main span #jeden {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: larger;
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+}
+
+#main #jeden {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: larger;
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+}
+
+#main #main span {
+  background-color: red;
+}
+
+#main #main span #jeden {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: larger;
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+}
+
+#main #jeden {
+  color: red;
+}
+
+#main #jeden:hover {
+  color: blue;
+}
+/*# sourceMappingURL=main.css.map */
