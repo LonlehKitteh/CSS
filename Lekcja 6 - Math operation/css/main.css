@@ -1,0 +1,87 @@
+#flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#flex div#identyfikator1 {
+  background-color: blue;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  margin: 4px;
+}
+
+#flex div#identyfikator2 {
+  background-color: blue;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  margin: 4px;
+}
+
+#flex div#identyfikator3 {
+  background-color: blue;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  margin: 4px;
+}
+
+#flex div#identyfikator4 {
+  background-color: blue;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  margin: 4px;
+}
+
+#flex div#identyfikator5 {
+  background-color: blue;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  margin: 4px;
+}
+
+#flex div#identyfikator6 {
+  background-color: blue;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  margin: 4px;
+}
+
+#flex div#identyfikator7 {
+  background-color: blue;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  margin: 4px;
+}
+
+#flex div#identyfikator8 {
+  background-color: blue;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  margin: 4px;
+}
+
+#flex div#identyfikator9 {
+  background-color: blue;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  margin: 4px;
+}
+
+#identyfikator3 {
+  -ms-flex-preferred-size: 29% !important;
+      flex-basis: 29% !important;
+}
+
+#identyfikator5 {
+  -ms-flex-preferred-size: 4% !important;
+      flex-basis: 4% !important;
+}
+
+#identyfikator7 {
+  -ms-flex-preferred-size: 100% !important;
+      flex-basis: 100% !important;
+}
+/*# sourceMappingURL=main.css.map */
