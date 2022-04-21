@@ -1,0 +1,13 @@
+#dupa {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  #dupa {
+    color: blue;
+  }
+}
+
+#cloud {
+  color: #773777;
+}

@@ -1,0 +1,10 @@
+#dupa {
+  color: red;
+}
+
+@media screen and (max-width: 600px) {
+  #dupa {
+    color: blue;
+  }
+}
+/*# sourceMappingURL=main.css.map */

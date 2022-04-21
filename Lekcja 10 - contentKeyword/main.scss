@@ -1,0 +1,12 @@
+@mixin mQ($arg){
+    @media screen and (max-width: $arg) {
+        @content;
+    }
+}
+
+#dupa{
+    color: red;
+    @include mQ(600px){
+        color: blue;
+    }
+}
